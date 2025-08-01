@@ -14,6 +14,7 @@
     --color-primary-10: #222; /* footer */
     --color-primary-11: #e8a100; /*multiplo uso (porquê eu quero kkkk)*/
     --color-primary-12: #fff3d6; /*cor suave combinante com o body */
+    --color-primary-13:rgb(255, 234, 176);
 
     --color-neutral-0: #fff;    /* box mid*/
     --color-neutral-1: #1d1d1d; /* navbar select */
@@ -495,6 +496,93 @@ footer {
     border-radius: 15px;
 }
 
+.login-container, .info-panel {
+      height: 100%;
+}
+    
+.login-container {
+  flex: 1;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--color-primary-13);
+}
+
+#login-logo {
+  text-align: center;
+  color: #333;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+#login-logo-div {
+    text-align: center;
+}
+
+#email-login {
+    text-align: center;
+}
+
+#email-login label {
+  font-weight: bold;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+  transform: translateX(175px);
+}
+
+#senha-login {
+    text-align: center;
+}
+
+#senha-login label {
+  font-weight: bold;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+  transform: translateX(175px);
+}
+
+#buttons-login-cad {
+    text-align: center;
+}
+
+#login-button {
+  width: 82.5%;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color:rgb(233, 205, 135);
+}
+
+#cad-button {
+  width: 75%;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color:rgb(233, 205, 135);
+}
+
+#login-button:hover {
+    background-color: var(--color-primary-11);
+}
+
+#cad-button:hover {
+    background-color: var(--color-primary-11);
+}
+
 @media screen and (max-width:1450px) {
     .Lixo_Eletronico > .carousel-container{
         align-self: center;
@@ -570,4 +658,15 @@ footer {
     max-width: 100%;
     transform: translateX(0px);
     }
+}
+
+@media (max-width: 768px) {
+  .window {
+    flex-direction: column;
+    max-width: 400px;
+  }
+
+  .info-panel {
+    height: 200px;
+  }
 }
