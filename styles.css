@@ -526,7 +526,7 @@ footer {
 }
 
 #email-login label {
-  font-weight: bold;
+  font-size: 1.25rem;
   color: #555;
   display: block;
   margin-bottom: 5px;
@@ -539,7 +539,7 @@ footer {
 }
 
 #senha-login label {
-  font-weight: bold;
+  font-size: 1.25rem;
   color: #555;
   display: block;
   margin-bottom: 5px;
@@ -582,6 +582,39 @@ footer {
 #cad-button:hover {
     background-color: var(--color-primary-11);
 }
+
+.image-panel {
+    flex: 1;
+    border-left: 1px solid #ddd;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.image-panel img {
+    width: 100%;
+    height: 663px;
+}
+
+.image-panel span {
+    align-items: center; /* centraliza verticalmente */
+    height: 660px; 
+}
+
+#absolute-cinema {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+#quote {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.05rem;
+}
+
+
 
 @media screen and (max-width:1450px) {
     .Lixo_Eletronico > .carousel-container{
