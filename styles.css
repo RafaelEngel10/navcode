@@ -53,6 +53,11 @@ section {
     background-color: var(--color-primary-3);
 }
 
+.btn-default a {
+    text-decoration: none;
+    color: var(--color-primary-2);
+}
+
 .section-title {
     font-size: 2.1875rem;
 } 
