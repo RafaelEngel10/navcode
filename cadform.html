@@ -22,7 +22,7 @@
     </header>
 
     <main>
-        <form action="">
+        <form action="script.php" method="post">
             <div class="content">
                 <div class="window">
                     <div class="login-container">
@@ -33,14 +33,14 @@
                         </div>
                         <div id="email-login" class="email">
                             <br>
-                            <label id="cad-email" for="email" place>Email:</label> <br>
-                            <input type="email" size="90x100" width="100">
+                            <label id="cad-email" for="email">Email:</label> <br>
+                            <input type="email" name="email" size="90" width="100" placeholder="Seu email">
                             <br><br>
                         </div>
                         <div id="senha-login" class="senha">
                             <br><br>
                             <label id="cad-senha" for="senha">Senha:</label> <br>
-                            <input type="senha" size="80" width="75">
+                            <input type="senha" name="senha" size="80" width="75" placeholder="Sua senha">
                             <br><br>
                         </div>
                         <div id="buttons-login-cad">
