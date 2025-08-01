@@ -75,7 +75,13 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+#button-div {
+  display: flex;       
+  flex-direction: row; 
+  gap: 15px;           
 }
 
 #nav_logo {
@@ -522,16 +528,18 @@ footer {
 }
 
 #email-login {
+    position: relative;
     text-align: center;
 }
 
 #email-login label {
+  position: absolute;
   font-size: 1.25rem;
   color: #555;
   display: block;
   margin-bottom: 5px;
-  text-align: left;
-  transform: translateX(175px);
+  top: 0px;
+  left: 150px;
 }
 
 #email-login input {
@@ -539,16 +547,18 @@ footer {
 }
 
 #senha-login {
+    position: relative;
     text-align: center;
 }
 
 #senha-login label {
+  position: absolute;  
   font-size: 1.25rem;
   color: #555;
   display: block;
   margin-bottom: 5px;
-  text-align: left;
-  transform: translateX(175px);
+  top: 25px;
+  left: 150px;
 }
 
 #senha-login input {
@@ -560,7 +570,7 @@ footer {
 }
 
 #login-button {
-  width: 82.5%;
+  width: 46.5%;
   padding: 14px;
   border: none;
   border-radius: 12px;
@@ -640,7 +650,7 @@ footer {
   margin-bottom: 5px;
   text-align: left;
   transform: translateX(175px);
-font-size: 1.5em;
+ font-size: 1.5em;
 }
 
 .email input {
@@ -661,9 +671,11 @@ font-size: 1.5em;
     background-image: url('images/conversa.png');
     background-size: cover;
     background-position: center;
-    opacity: 0.5; /* Ajuste a opacidade do fundo */
-    z-index: -1;  /* Fica atrás do conteúdo */
+    opacity: 0.5; 
+    z-index: -1;  
 }
+
+
 
 @media screen and (max-width:1450px) {
     .Lixo_Eletronico > .carousel-container{
@@ -741,12 +753,12 @@ font-size: 1.5em;
     transform: translateX(0px);
     }
 
-    .image-panel img {
-        display: hidden
+    .image-panel {
+        visibility: hidden;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .window {
     flex-direction: column;
     max-width: 400px;
@@ -760,17 +772,27 @@ font-size: 1.5em;
     text-align: center;
   }
 
+  input {
+    max-width: 80%;
+  }
+
+  .login-container {
+    max-width: 100%;
+  }
+
   .image-panel {
-    display: none;
+    visibility: hidden;
   }
 
   #email-login label {
     text-align: center;
-    transform: translateX(0px);
+    top: 0px;
+    left: 0px;
   }
 
   #senha-login label {
     text-align: center;
-    transform: translateX(0px);
+    top: 0px;
+    left: 0px;
   }
 }
