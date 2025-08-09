@@ -252,6 +252,11 @@ footer {
         align-items: center;
     }
 
+    #mobile_menu.active br {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
     #mobile_nav_list {
         display: flex;
         flex-direction: column;
@@ -299,7 +304,13 @@ footer {
 #Intro {
     display: flex;
     margin-top: 2.5%;
-    padding: 65px;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    background-color: var(--color-primary-12);
 }
 
 #introduction {
@@ -333,8 +344,7 @@ footer {
 #intro_image {
     display: flex;
     position: relative;
-    right: 125px;
-    top: 35px;
+    right: 95px;
     margin: 3px;
 }
 
@@ -391,14 +401,14 @@ footer {
     font-weight: 750;
 }
 
-.img_02 {
+#img_02 {
     box-sizing: border-box;
     max-height: 500px;
     max-width: 50%;
     display: flex;
 }
 
-.img_02 img {
+#img_02 img {
     position: absolute;
     display: block;
     align-items: right;
@@ -409,14 +419,14 @@ footer {
     left: 150px;
 }
 
-.img_03 {
+#img_03 {
     box-sizing: border-box;
     max-height: 500px;
     max-width: 50%;
     display: flex;
 }
 
-.img_03 img {
+#img_03 img {
     position: absolute;
     display: block;
     border-radius: 10px;
@@ -731,14 +741,48 @@ footer {
     background-color: var(--color-primary-13);
 }
 
+#footer {
+    padding: 0;
+}
+
 @media screen and (max-width:1450px) {
+    header {
+        width: 100%;
+    }
+    #navbar {
+        justify-content: space-between;
+    }
+
     .Lixo_Eletronico > .carousel-container{
         align-self: center;
         transform: none;
     }
-    img {
+    .mother_img img {
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+    }
+    #img_social {
         display: none;
     }
+
+    #img_02 {
+        display: none;
+    }
+
+    #img_03 {
+        display: none;
+    }
+
+    #intro_image {
+        display: none;
+    }
+    
+    .carousel-container {
+        left: 20px;
+    }
+
     #introduction {
         max-width: 100%;
     }
@@ -752,12 +796,26 @@ footer {
         max-width: 100%;
     }
     .impacts_amb_itens {
-    font-size: 1.25rem;
-    max-width: 100%;
-    transform: translateX(0px);
+        font-size: 1.25rem;
+        max-width: 100%;
+        transform: translateX(0px);
     }
+
     #outros{
         max-width: 100%;
+    }
+
+    #outros_img {
+        text-align: center;
+    }
+
+    #outros_img video {
+        transform: translateX(0px) translateY(0px);
+        border-radius: 15px;
+    }
+
+    #Outros {
+        flex-direction: column;
     }
     .title {
         max-width: 100%;
@@ -770,18 +828,85 @@ footer {
     }
 }
 
+@media screen and (max-width: 1380px) {
+    #home {
+        padding: 28px 3%;
+    }
+
+    #cta {
+        width: 50%;
+    }
+
+    #banner {
+        width: 50%;
+    }
+
+    #banner img {
+        width:100%;
+        height: 700px;
+    }
+}
+
 @media  screen and (max-width: 1325px) {
-    #outros_img{
+    #home {
+        min-height: auto;
+    }
+    
+    #cta {
+        width: 100%;
+        height: auto;
+    }
+
+    #cta h1 {
+        width: 100%;
+    }
+
+    #banner {
         display: none;
+    }
+
+    #banner img {
+        display: none;
+    }
+
+    #outros_img {
+        text-align: center;
+    }
+
+    #nav_logo {
+        position: relative;
+        right: 20px;
+    }
+
+    #button-div {
+        position: relative;
+        left: 20px;
+    }
+
+    #outros_img video {
+        transform: translateX(0px) translateY(0px);
+        border-radius: 15px;
+    }
+
+    #Outros {
+        flex-direction: column;
     }
     #outros{
         max-width: 100%;
     }
-    video {
-        display: none;
+
+    .Impactos {
+        gap: 0px;
+        padding: 40px;
     }
+
+    .Lixo_Eletronico {
+        display: flex;
+        flex-direction:column;
+    }
+
     .carousel-container {
-        display: none;
+        width: 80%;
     }
     #introduction {
         max-width: 100%;
