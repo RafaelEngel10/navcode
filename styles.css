@@ -745,6 +745,18 @@ footer {
     padding: 0;
 }
 
+@media screen and (max-width: 1600px) {
+     .Lixo_Eletronico {
+        display: flex;
+        flex-direction:column;
+    }
+    .Lixo_Eletronico > .carousel-container {
+        position: relative;
+        align-self: center;
+        width: 80%;
+    }
+}
+
 @media screen and (max-width:1450px) {
     header {
         width: 100%;
@@ -900,14 +912,6 @@ footer {
         padding: 40px;
     }
 
-    .Lixo_Eletronico {
-        display: flex;
-        flex-direction:column;
-    }
-
-    .carousel-container {
-        width: 80%;
-    }
     #introduction {
         max-width: 100%;
     }
