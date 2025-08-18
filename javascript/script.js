@@ -65,13 +65,13 @@ $(document).ready(function() {
     });
 
     ScrollReveal().reveal('#Lixo_Eletrônico', {
-        origin: 'bottom',
+        origin: 'left',
         duration: 1000,
         distance: '20%'
     });
 
     ScrollReveal().reveal('#Outros', {
-        origin: 'left',
+        origin: 'right',
         duration: 1000,
         distance: '20%'
     });
