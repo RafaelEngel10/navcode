@@ -55,25 +55,25 @@ $(document).ready(function() {
     ScrollReveal().reveal('#Ambiental', {
         origin: 'top',
         duration: 2000,
-        distance: '20%'
+        distance: '5%'
     });
 
     ScrollReveal().reveal('#Social', {
         origin: 'bottom',
         duration: 2000,
-        distance: '20%'
+        distance: '5%'
     });
 
     ScrollReveal().reveal('#Lixo_Eletrônico', {
         origin: 'left',
         duration: 1000,
-        distance: '20%'
+        distance: '10%'
     });
 
     ScrollReveal().reveal('#Outros', {
         origin: 'right',
         duration: 1000,
-        distance: '20%'
+        distance: '10%'
     });
 
     ScrollReveal().reveal('.dish', {
