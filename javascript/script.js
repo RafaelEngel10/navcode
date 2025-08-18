@@ -40,6 +40,42 @@ $(document).ready(function() {
         distance: '20%'
     });
 
+    ScrollReveal().reveal('#banner', {
+        origin: 'right',
+        duration: 2000,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('#Intro', {
+        origin: 'top',
+        duration: 2000,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('#Ambiental', {
+        origin: 'top',
+        duration: 2000,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('#Social', {
+        origin: 'bottom',
+        duration: 2000,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('#Lixo_Eletrônico', {
+        origin: 'bottom',
+        duration: 1000,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('#Outros', {
+        origin: 'left',
+        duration: 1000,
+        distance: '20%'
+    });
+
     ScrollReveal().reveal('.dish', {
         origin: 'left',
         duration: 2000,
