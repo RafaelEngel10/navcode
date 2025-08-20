@@ -17,7 +17,10 @@
     --color-primary-13:rgb(255, 234, 176);
 
     --color-neutral-0: #fff;    /* box mid*/
-    --color-neutral-1: #1d1d1d; /* navbar select */
+    --color-neutral-1: #2E2E2E; /* navbar select */
+    --color-neutral-2: #1C1C1C; /* span text color */
+    --color-neutral-3: #1A1F24; /* span detail color */
+    --color-neutral-4: #252525; /* span h3 color*/
 }
 
 * {
@@ -403,6 +406,15 @@ footer {
 
 .span_text {
     font-weight: 750;
+    color: var(--color-neutral-2);
+}
+
+.span_detail {
+    color: var(--color-neutral-3);
+}
+
+#span_h3 {
+    color: var(--color-neutral-4);
 }
 
 #img_02 {
@@ -758,6 +770,12 @@ footer {
         position: relative;
         align-self: center;
         width: 80%;
+    }
+}
+
+@media screen and (max-width:1576px) {
+    #intro_image img {
+        margin: 12px;
     }
 }
 
