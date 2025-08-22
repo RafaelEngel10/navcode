@@ -12,5 +12,5 @@ function trocarImagem() {
     document.getElementById("croata").src = alternar ? "../navcode/partyimages/partyimages-joke/croacia.png" : "../navcode/partyimages/Croata.jpeg";
     document.getElementById("americano").src = alternar ? "../navcode/partyimages/partyimages-joke/america.png" : "../navcode/partyimages/Americano.jpeg";
 
-    alternar = !alternar; // alterna entre os dois estados
+    alternar = !alternar; 
 }
