@@ -205,8 +205,16 @@ footer {
     transition: color 0.4s;
 }
 
-#footer-links a:hover {
+#alunos:hover {
     color: var(--color-primary-12);
+}
+
+#unifenas:hover {
+    color: #00436e;
+}
+
+#referencias11:hover {
+    color: #722F37;
 }
 
 #social-icons {
