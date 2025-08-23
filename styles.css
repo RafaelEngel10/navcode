@@ -298,6 +298,15 @@ footer {
         gap: 12px;
         margin: 12px 0px;
     }
+
+    #mobile_nav_list_btn {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin: 6px 0px;
+        align-items: center;
+        list-style-type: none;
+    }
     
     #mobile_nav_list .nav-item {
         list-style: none;
