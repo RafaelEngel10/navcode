@@ -55,13 +55,13 @@ $(document).ready(function() {
     ScrollReveal().reveal('#Ambiental', {
         origin: 'top',
         duration: 2000,
-        distance: '5%'
+        distance: '2.5%'
     });
 
     ScrollReveal().reveal('#Social', {
         origin: 'bottom',
         duration: 2000,
-        distance: '5%'
+        distance: '2.5%'
     });
 
     ScrollReveal().reveal('#Lixo_Eletrônico', {
