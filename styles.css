@@ -424,10 +424,6 @@ footer {
     transform: translateX(-25px);
 }
 
-.impacts_amb_itens li {
-    gap: 10px;
-}
-
 .impacts_amb_itens p a {
     text-decoration: none;
     color: var(--color-primary-11);
@@ -867,6 +863,7 @@ footer {
         max-width: 100%;
     }
     .impacts_amb_itens {
+        gap: 0;
         font-size: 1.25rem;
         max-width: 100%;
         transform: translateX(0px);
