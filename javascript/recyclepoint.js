@@ -39,7 +39,7 @@ const locations = [
         lat: -21.397809759367437, // Alfenas Ambiental
         lng: -45.9480039510521,
         zoom: 17,
-        info: "Ponto de Coleta - Ferro Velho São João:\nVenda e coleta de sucatas de Alfenas. Verifique os horários de funcionamento.",
+        info: "Ponto de Coleta - Ferro Velho do João:\nVenda e coleta de sucatas de Alfenas. Verifique os horários de funcionamento.",
         horarios: {
             "segunda": {
                 "abre": "07:00",

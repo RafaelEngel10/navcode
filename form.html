@@ -25,7 +25,7 @@
 
   <!-- Janela -->   <!-- Mudar o action para login.php quando o arquivo estiver pronto para receber logins -->
   <main>
-    <form action="index.html" method="post" class="cadform">
+    <form action="index.html" method="post" class="loginform" id="logform">
       <div class="content">
         <div class="window">
           <div class="login-container">
@@ -37,13 +37,13 @@
             <div id="email-login">
               <br>
               <label id="login-email" for="email" place>Email:</label> <br>
-              <input type="email" size="40" width="100">
+              <input type="email" size="40" width="100" id="emailLogin">
               <br><br>
             </div>
             <div id="senha-login">
               <br><br>
               <label id="login-senha" for="senha">Senha:</label> <br>
-              <input type="senha" size="40" width="75">
+              <input type="senha" size="40" width="75" id="senhaLogin">
               <br><br>
             </div>
             <div id="buttons-login-cad">

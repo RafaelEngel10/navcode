@@ -25,7 +25,7 @@
     </header>
 
     <main>            <!-- Mudar o action para script.php quando o arquivo estiver pronto para receber cadastros -->
-        <form action="index.html" method="post">
+        <form action="index.html" method="post" id="cadform">
             <div class="content">
                 <div class="window">
                     <div class="login-container">
@@ -37,13 +37,13 @@
                         <div id="email-login" class="email">
                             <br>
                             <label id="cad-email" for="email">Email:</label> <br>
-                            <input type="email" name="email" size="90" width="100" placeholder="Seu email">
+                            <input type="email" id="email" name="email" size="90" width="100" placeholder="Seu email">
                             <br><br>
                         </div>
                         <div id="senha-login" class="senha">
                             <br><br>
                             <label id="cad-senha" for="senha">Senha:</label> <br>
-                            <input type="senha" name="senha" size="80" width="75" placeholder="Sua senha">
+                            <input type="senha" id="senha" name="senha" size="80" width="75" placeholder="Sua senha">
                             <br><br>
                         </div>
                         <div id="buttons-login-cad">
@@ -57,6 +57,7 @@
                 </div>
             </div>
         </form>
+        <script src="javascript/cad-log/cadform.js"></script>
     </main>
 
     <footer>

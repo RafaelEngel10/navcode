@@ -101,7 +101,7 @@
     box-shadow: 0 0 10px darkred;
   }
 
-  nav button.ativo {
+  .btn-locativo {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     color: #e8a100;
