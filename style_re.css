@@ -56,6 +56,7 @@
     .content {
       height: calc(100vh - 120px); 
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       opacity: 0;
@@ -79,7 +80,39 @@
       opacity: 0;
       animation: slideInWindow 0.8s forwards;
     }
+
+    .led {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      border-radius: 50%;
+      background-color: gray; /* padrão */
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
     
+  .aberto {
+    background-color: green;
+    box-shadow: 0 0 10px lime;
+  }
+
+  .fechado {
+    background-color: red;
+    box-shadow: 0 0 10px darkred;
+  }
+
+  nav button.ativo {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    color: #e8a100;
+  }
+
+  .loja {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
     @keyframes slideInWindow {
       to {
         transform: translateY(0);
@@ -113,7 +146,7 @@
     
     .info-panel textarea {
       width: 100%;
-      height: 100%;
+      height: 75%;
       resize: none;
       border: 2px solid #000000;
       padding: 10px;

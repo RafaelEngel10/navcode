@@ -20,10 +20,10 @@
   <header>
     <nav id="navbar">
       <a href="index.html"><i class="fa-solid fa-recycle" id="nav_logo"> Go!Recycle</i></a> <!--logo-->
-      <button data-index="0">Prefeitura</button>
-      <button data-index="1">Alfenas Ambiental</button>
-      <button data-index="2">UNIFAL-MG</button>
-      <button data-index="3">Vida Viva</button>
+      <button class="btn-loc" data-index="0">Prefeitura</button>
+      <button class="btn-loc" data-index="1">Alfenas Ambiental</button>
+      <button class="btn-loc" data-index="2">UNIFAL-MG</button>
+      <button class="btn-loc" data-index="3">Vida Viva</button>
     </nav>
   </header>
 
@@ -34,23 +34,23 @@
         <div class="map-container">
           <!-- Aparece o mapa aqui -->
           <iframe id="map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1857.053072253952!2d-45.9498182!3d-21.425072499999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b5f5a5e6deaac9%3A0x5091575297740ab6!2sPrefeitura%20Municipal%20de%20Alfenas%20-%20MG!5e0!3m2!1spt-BR!2sbr!4v1745503042669!5m2!1spt-BR!2sbr"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d118844.94269596228!2d-45.95!3d-21.433!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b5f433c6140beb%3A0xbc2ca390b524e1!2sAlfenas%2C%20MG%2C%2037130-000!5e0!3m2!1spt-BR!2sbr!4v1755994498968!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="info-panel">
-          <textarea id="infoText">
-Ecoponto - Prefeitura Municipal de Alfenas:
-Local para descarte de eletrônicos no prédio da Prefeitura.
-(Observação: Pilhas, lâmpadas e baterias não devem ser descartadas.)
+          <textarea id="infoText" readonly>
+- SELECIONE UM PONTO DE COLETA -
         </textarea>
+          <div class="loja">
+            <p id="status"></p><span id="led" class="led"></span>
+          </div>
         </div>
-      </div>
+      </div><br>
     </div>
   </main>
 
   <script src="javascript/recyclepoint.js"></script>
-
   <script src="javascript/script.js"></script>
 
 </body>
