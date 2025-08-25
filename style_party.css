@@ -144,7 +144,7 @@ body {
     }
   }
   
-.navbar a {
+#logo-party {
   text-decoration: none;
   color: #e8a100;
   justify-self: center;

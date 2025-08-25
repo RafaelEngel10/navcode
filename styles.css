@@ -394,11 +394,10 @@ footer {
 
 .Impactos {
     display: flex;
-    margin-top: 2.5%;
     max-width: 100%;
     gap: 10px;
     padding: 50px;
-    margin: 50px;
+    margin: 50px 50px 100px 50px;
 }
 
 #impacts {
@@ -567,26 +566,20 @@ footer {
 
 .Lixo_Eletronico {
     display: flex;
-    margin-top: 2.5%;
     max-width: 100%;
-    margin-right: 50px;
-    margin-left: 50px;
     gap: 10px;
     background-color: var(--color-primary-12);
     border-radius: 15px;
-    margin: 50px;
+    margin: 100px 50px 100px 50px;
 }
 
 .Lei_Vigente {
     display: flex;
-    margin-top: 45px;
     max-width: 100%;
-    margin-right: 30px;
-    margin-left: 30px;
     gap: 10px;
     background-color: var(--color-primary-12);
     border-radius: 15px;
-    margin: 45px;
+    margin: 50px 30px 50px 30px;
 }
 
 #outros_title {
